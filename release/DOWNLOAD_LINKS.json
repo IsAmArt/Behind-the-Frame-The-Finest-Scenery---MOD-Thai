@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "status": "ASSET_UPLOAD_VERIFICATION_PENDING",
+  "bepinex": {
+    "label": "ดาวน์โหลด BepInEx 6.0.0-be.788",
+    "url": "https://builds.bepinex.dev/projects/bepinex_be/788/BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.788%2B5b766a3.zip",
+    "expected_sha256": "F4CC496BD098A0DF4164B81E3737297707F13A47C2478DBA2F60EEFAB784817A",
+    "verified_date": "2026-10-31",
+    "verified_http_status": 200
+  },
+  "mod": {
+    "label": "ดาวน์โหลดมอดภาษาไทยฉบับเต็ม",
+    "enabled": false,
+    "repository_url": "https://github.com/IsAmArt/Behind-the-Frame-The-Finest-Scenery---MOD-Thai",
+    "release_tag": "v1.0.0-rc1",
+    "asset_filename": "BehindTheFrameThai_v1.0.0-rc1_FULL.zip",
+    "asset_url": null,
+    "uploaded_asset_verified": false,
+    "rights_approved": false,
+    "exact_candidate_runtime_qa_approved": false,
+    "owner_publication_authorized": true
+  },
+  "zip_sha_policy": "Final local ZIP hash is external in the adjacent .zip.sha256 file; no recursive embedded ZIP hash."
+}

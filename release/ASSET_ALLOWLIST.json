@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "notebook_count": 34,
+  "cinema_count": 12,
+  "includes_all31_public_permission_pending_images": true,
+  "assets": [
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/CinemaThai/congrats__th__01.png",
+      "width": 1510,
+      "height": 358,
+      "sha256": "F0FCC4F752912B496AC5BD9733E453D2422640C4E2E7856BF6560D6D7C62631C",
+      "source_revision": "Phase05G approved hash-pinned frame",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/CinemaThai/congrats__th__02.png",
+      "width": 1510,
+      "height": 358,
+      "sha256": "496394258FBC818F0ACDF7DD8574944811E4201608211EC7533B6CD2852C3981",
+      "source_revision": "Phase05G approved hash-pinned frame",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/CinemaThai/congrats__th__03.png",
+      "width": 1510,
+      "height": 358,
+      "sha256": "23D26F63CCA37D6195C54EEEA222FDE8EC26239C452A2B3187D457CDEE36980B",
+      "source_revision": "Phase05G approved hash-pinned frame",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/CinemaThai/congrats__th__04.png",
+      "width": 1510,
+      "height": 358,
+      "sha256": "8910756550D85CA515E2E4BFE1CD8430750253773E9EE8109ED6F360B3FC6517",
+      "source_revision": "Phase05G approved hash-pinned frame",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/CinemaThai/morning__th__01.png",
+      "width": 752,
+      "height": 539,
+      "sha256": "814D82D6A67275DD928F7746776AC3A6D35FFA76F501808D11FDE0F028FF6CB2",
+      "source_revision": "Phase05G approved hash-pinned frame",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/CinemaThai/morning__th__02.png",
+      "width": 752,
+      "height": 539,
+      "sha256": "98894D90A7E3154B691CD3A281862F8096FDCF63B8D77F32E5CE8EBCFA9336B1",
+      "source_revision": "Phase05G approved hash-pinned frame",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/CinemaThai/morning__th__03.png",
+      "width": 752,
+      "height": 539,
+      "sha256": "B3A9FE87FD59BC364D1D421855994729AB949392059712FB1EE7787AF73E76FF",
+      "source_revision": "Phase05G approved hash-pinned frame",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/CinemaThai/morning__th__04.png",
+      "width": 752,
+      "height": 539,
+      "sha256": "AB4E4C2E17AFEFAB829E479E59EC6ED16EBF4A2E1D8EABC3FB89A4ACCE42D9AA",
+      "source_revision": "Phase05G approved hash-pinned frame",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/CinemaThai/offer__th__01.png",
+      "width": 1243,
+      "height": 308,
+      "sha256": "6970DED010107BBE7259B737A51123295DD4C82EF26EA099447D299AD1F91214",
+      "source_revision": "Phase05G approved hash-pinned frame",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/CinemaThai/offer__th__02.png",
+      "width": 1243,
+      "height": 308,
+      "sha256": "9FB7E2C1394879E4F4041420657D4F9DD1986108115166BFFE1D75E4B362FC43",
+      "source_revision": "Phase05G approved hash-pinned frame",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/CinemaThai/offer__th__03.png",
+      "width": 1243,
+      "height": 308,
+      "sha256": "C7A913ADD88C9042762976180758E18D1AF1A7925623B996ED860B3A9E668369",
+      "source_revision": "Phase05G approved hash-pinned frame",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/CinemaThai/offer__th__04.png",
+      "width": 1243,
+      "height": 308,
+      "sha256": "1FCF7889418A8C380027380F8161502CDE4C62D8AF39A785C937A9D71F2D968C",
+      "source_revision": "Phase05G approved hash-pinned frame",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/AmberLetter_1__th.png",
+      "width": 550,
+      "height": 241,
+      "sha256": "76CAEA991EA3B1764ACD5CA94B045FCEFA052825BC25F73B833A08B707EAA239",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/AmberLetter_2__th.png",
+      "width": 643,
+      "height": 230,
+      "sha256": "D66F15D30264C06909A5083D84CA1C0B6205146A3A43C8DBB9C08BB4B2320C0A",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/AmberLetter_3__th.png",
+      "width": 709,
+      "height": 222,
+      "sha256": "35E5D0FD7EAE30D5B8EB871B18E287C38A15AAE10CD73978B030FE2F18216EA8",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/Brush_Desc__th.png",
+      "width": 237,
+      "height": 154,
+      "sha256": "065BB739A312E03FD5F61F9E6051D0FB5FF7440D694E77EFB41E94033C12B1BA",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_AmberLetter_01__th.png",
+      "width": 607,
+      "height": 682,
+      "sha256": "20BDBD9BD0C57BDB7E6E18B641ABBBD8F0EF637D9E147A347BD1C2B61A4760E5",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_AmberLetter_02__th.png",
+      "width": 525,
+      "height": 660,
+      "sha256": "4ABC3A7C9B689AD0AAA0D8CC70653FC7073313CD5B569C34374CC2B0A5A3BAA0",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_AmberLetter_03__th.png",
+      "width": 693,
+      "height": 813,
+      "sha256": "40435F76B567D41A0164704AF3245E346B4F6D74E5739B9B8E3CC50A65B147CC",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_AmberNote__th.png",
+      "width": 417,
+      "height": 221,
+      "sha256": "6B5337DEE7DA514B7EF2A1AB203D57DF47F07B06DE28DA04AFFCFCA2C9283424",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_Letter_Replying_Fail_01__th.png",
+      "width": 616,
+      "height": 302,
+      "sha256": "8135EA31AFE93F19B5644183A16463458F320BC9E3C9A85184948728B9B407EC",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_Letter_Replying_Fail_02__th.png",
+      "width": 639,
+      "height": 322,
+      "sha256": "5EDB067D1D8656AF5528893C05B9A46BAF26280D6199A042552827153787FA4E",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_Letter_Replying_Fin_01__th.png",
+      "width": 615,
+      "height": 275,
+      "sha256": "F386C5A9E9731EEE2D4A34DBA103BE160DABD05F3FA0FDACAB64C8485C722E37",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_Letter_Replying_Fin_02__th.png",
+      "width": 620,
+      "height": 323,
+      "sha256": "911BCF718ACE06B3D91708D6E2011BE185C5B5064FFD80F9DF82E69361BA6B08",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_Letter_Replying_Fin_03__th.png",
+      "width": 767,
+      "height": 428,
+      "sha256": "CCEF22CC875A25700C80F04446EA7F8C7F333FAD3E16FB0521F7A9CFE56A0989",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_OtherLetter_01__th.png",
+      "width": 615,
+      "height": 780,
+      "sha256": "81C327EDD646A1B90C1C80F634CE0E81D0E2FC52278359926428C285B4FC8143",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_OtherLetter_02__th.png",
+      "width": 667,
+      "height": 730,
+      "sha256": "49870639C01500B8CC7171665079554D4D5DB4177DA66ADD788CBB82F4972216",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_OtherLetter_03__th.png",
+      "width": 473,
+      "height": 708,
+      "sha256": "6AA8239E2D7A53B6833582487F162AE6507E52C9980BEB156A43C76CB7FA1C3B",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_OtherLetter_04__th.png",
+      "width": 589,
+      "height": 741,
+      "sha256": "1266A69F1444D6E409DA1CB4646839B2AFAADF2B97627ADF4F934CDB69F5E87C",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_OtherLetter_05__th.png",
+      "width": 556,
+      "height": 742,
+      "sha256": "389297B1A85519D97054C94A9BDCB615CB499AE0E481161964D502EE18AA5A0E",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_OtherLetter_06__th.png",
+      "width": 549,
+      "height": 653,
+      "sha256": "B1EE8912BB938601DAA10780E699AF8F7DD510DA57AEF2A882E2D533D843B049",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_Sketch_Bakery_Text__th.png",
+      "width": 445,
+      "height": 159,
+      "sha256": "CE9B166AD54ED0C9AEB6006DC1F44B38FA3B1ED14263AA93B46ED454286590D8",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_Sketch_OldWall_Text__th.png",
+      "width": 219,
+      "height": 147,
+      "sha256": "2C8C4786C0E816863EFB79E8BAA4FB6BCA96F640515D5F43BF1FE9A89D366899",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/DLC_Sketch_Sapling_Text__th.png",
+      "width": 226,
+      "height": 136,
+      "sha256": "F19D382C21D577824357E435A56DA0D402ED68509FFB90CF66035AB8149D937D",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/JackLetter_1__th.png",
+      "width": 510,
+      "height": 457,
+      "sha256": "0C8CE846C7B54E4F65E10BA09B0B0A68ACAD5CBF457A4F98BEF755B614750BB2",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/JackLetter_2__th.png",
+      "width": 544,
+      "height": 415,
+      "sha256": "0349AF562D21D39917AD83E667EFE15C29DA2634A0D8ECD33160AB418D917FFF",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/JackLetter_3__th.png",
+      "width": 609,
+      "height": 374,
+      "sha256": "FEA704F58579A419182B7469E8EACD1E09BC0D2C5C864EEA25EE219AB08B2A15",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/JackScene01_Cat__th.png",
+      "width": 278,
+      "height": 146,
+      "sha256": "D818CB762EF4707AC94D443CA688469F380D848C1077F5AB4A6E8A8CE535E924",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/JackScene01_HillPainting__th.png",
+      "width": 512,
+      "height": 104,
+      "sha256": "776B3A950B6B5A8E8C3A0294A4DC28C9C7E2909653F6D67EFC3C1DD5B4D4E5E9",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/JackScene01_Jack__th.png",
+      "width": 326,
+      "height": 466,
+      "sha256": "D9B82651DA8A730262B785B5A4170FDAC5B50093C533B515B2DAB70090D92DB2",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/JackScene02_JackAndCat__th.png",
+      "width": 288,
+      "height": 371,
+      "sha256": "B40D20F6FB870ABD91494694CAF47203A37D96C401C281E4E7B030F7FF6FEF08",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/JackScene03_Jack__th.png",
+      "width": 157,
+      "height": 171,
+      "sha256": "E4D058D4DE1C744759BDA253177779F9288BD03716C74F593FAAC8AB9C949DE3",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/JackScene03_Umbrella__th.png",
+      "width": 590,
+      "height": 87,
+      "sha256": "96B3E1C16838D56929147961843188BF9E07D7202DEF5941EF82CB0F0C874EEB",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/JackScene04_Amber__th.png",
+      "width": 333,
+      "height": 294,
+      "sha256": "750EF65D18F4B4E4479025C8870F5391FB49A57CCC3C0950305AF614E088713B",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/JackScene04_Jack__th.png",
+      "width": 342,
+      "height": 247,
+      "sha256": "97C061C167488F0D14C7BF3D4A1FA33C2FE01B2E8E2E4B4EA57125FFDF358FAA",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    },
+    {
+      "relative_install_path": "BepInEx/plugins/BehindTheFrameThai/VisualLocalization/Thai/NeighborPainting__th.png",
+      "width": 731,
+      "height": 170,
+      "sha256": "51FD61D8E29A741E0EBC726529D9174E3FD5655E5398E05DBED30AF00B7253DD",
+      "source_revision": "Current Stage3/Phase05H; current approved bytes; public permission pending",
+      "permission": "RIGHTSHOLDER_PERMISSION_NOT_CONFIRMED",
+      "must_preserve_bytes": true
+    }
+  ]
+}

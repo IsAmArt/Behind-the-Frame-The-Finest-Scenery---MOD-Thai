@@ -1,0 +1,14 @@
+TAMolly Regular — TA Font
+The existing embedded bundle is included; no standalone Regular/Bold TTF is distributed.
+Original embedded copyright notices are retained. The original supplied font nameID13 licensing text follows:
+
+This font is licensed, not sold. Free use is permitted for personal, educational, and non-commercial projects only.
+
+Free game mods may embed the Regular font when distributed without a paywall. Voluntary donations to the mod author are permitted.
+
+Commercial use, paid distribution, modification, conversion, and standalone redistribution require a separate written license from TA Font.
+
+For licensing information, visit:
+https://isamart2530.myportfolio.com/
+
+Font terms do not grant game-artwork/translation permission or override Worasait's separate terms.

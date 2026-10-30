@@ -1,0 +1,20 @@
+{
+  "package_version": "1.0.0-rc1",
+  "plugin_version": "0.7.21",
+  "data_revision": "Phase05H + QA06 and approved latest artwork",
+  "creator": "TA Font",
+  "status": "PUBLIC_PRE_RELEASE",
+  "publication_status": "OWNER_AUTHORIZED_PUBLIC_PRE_RELEASE",
+  "runtime_qa": "INCOMPLETE_FOR_EXACT_PUBLIC_PACKAGE",
+  "runtime_files": 50,
+  "localization_keys": 703,
+  "notebook_pngs": 34,
+  "cinema_sets": 3,
+  "cinema_frames": 12,
+  "documentation_revision": "Phase06E-R2",
+  "documentation_status": "PUBLIC_DOCUMENTATION",
+  "candidate_directory": "BehindTheFrameThai_v1.0.0-rc1_FULL",
+  "release_classification": "Full Content — Public Pre-release",
+  "copyright_permission": "NOT_CONFIRMED",
+  "owner_publication_authorized": true
+}
