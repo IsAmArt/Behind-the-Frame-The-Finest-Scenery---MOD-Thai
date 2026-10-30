@@ -2,7 +2,7 @@
 
 [![ดาวน์โหลด BepInEx 6.0.0-be.788](assets/download-bepinex.svg)](https://builds.bepinex.dev/projects/bepinex_be/788/BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.788%2B5b766a3.zip)
 
-![ดาวน์โหลดมอดภาษาไทยฉบับเต็ม](assets/download-full.svg)
+[![ดาวน์โหลดมอดภาษาไทยฉบับเต็ม](assets/download-full.svg)](https://github.com/IsAmArt/Behind-the-Frame-The-Finest-Scenery---MOD-Thai/releases/download/v1.0.0-rc1/BehindTheFrameThai_v1.0.0-rc1_FULL.zip)
 
 [ภาษาไทย](README.md) · [Step-by-step install](docs/INSTALL_EN.md) · [Screenshots](docs/SCREENSHOTS.md) · [Troubleshooting](docs/TROUBLESHOOTING_EN.md)
 
