@@ -37,6 +37,16 @@ User-supplied gameplay captures: click a preview for its full-size copy. Histori
 
 Requires a legitimate game copy. This is unofficial and does not claim developer endorsement. The user reported completing the game with generally working Thai, but **this exact public ZIP still needs user runtime QA**.
 
+## First: make sure the original game launches
+
+1. Install the Steam game and reach its menu **without mods or BepInEx** first. Existing users should follow [backup/vanilla recovery](docs/BACKUP_UNINSTALL_EN.md), not delete files by guesswork.
+2. If the menu works, close the game; only then download/install pinned BepInEx below.
+3. Launch once to check BepInEx separately (first startup may take longer), close the game, then download/extract the Thai ZIP and copy its files.
+
+If the original game is black at startup, **stop mod installation** and read [Startup black screen — initial checks and recovery](docs/STARTUP_BLACK_SCREEN_EN.md). Do not reset the Registry on every installation. This is separate from same-chapter re-entry black screens.
+
+Online instructions were updated after the v1.0.0-rc1 ZIP: use the latest GitHub installation/recovery guides. The existing ZIP and mod files are unchanged.
+
 ## Installation for beginners
 
 Download both ZIPs using the buttons above, then:
@@ -44,7 +54,7 @@ Download both ZIPs using the buttons above, then:
 1. Prepare Steam Windows x64 and **two ZIPs**: the pinned BepInEx prerequisite and the Thai mod.
 2. Steam → **Library** → right-click game → **Properties… → Installed Files → Browse…**. Find **Behind the Frame.exe**, possibly inside **BehindTheFrame_PC_Steam**.
 3. Close the game. Right-click BepInEx ZIP → **Extract All… → Extract**. Open it and copy the archive's contents beside the EXE. Confirm **winhttp.dll** and **BepInEx** are at the same level as the EXE.
-4. Optionally launch the game yourself once to generate/check BepInEx files (first launch can take longer), then **close it** before installing the mod.
+4. After vanilla reaches the menu, launch once to generate/check BepInEx files separately (first launch can take longer), then **close it** before installing the mod.
 5. Extract the mod outside the game; open its package folder until README and **BepInEx** appear. Copy this **BepInEx** into the EXE folder, merging it. Do not create **BepInEx/BepInEx** nesting.
 6. Launch through Steam → **Settings → Language → ไทย**. No New Game or save reset is required.
 
@@ -63,7 +73,7 @@ Before: EXE folder/                 After: same folder/
 
 ## Tested scope
 
-Historically tested **Steam Windows x64 · Unity IL2CPP2019.4.18f1 · BepInEx6.0.0-be.788 · plugin0.7.21**. Do not substitute Mono/x86/BepInEx5 or an arbitrary Latest build. **Epic: NOT SUPPORTED / NOT VALIDATED** — the user reports the original Epic game did not launch in the latest test, so no mod QA exists there. Other stores/builds, macOS/Linux/Proton/SteamDeck and VR are untested.
+Historically tested **Steam Windows x64 · Unity IL2CPP2019.4.18f1 · BepInEx6.0.0-be.788 · plugin0.7.21**. Do not substitute Mono/x86/BepInEx5 or an arbitrary Latest build. **Epic: NOT SUPPORTED / NOT VALIDATED** — the original Epic game previously showed a startup black screen; it has not been retested since the owner changed Registry settings and Steam began working. No mod QA exists there. Other stores/builds, macOS/Linux/Proton/SteamDeck and VR are untested.
 
 ## Known issues
 

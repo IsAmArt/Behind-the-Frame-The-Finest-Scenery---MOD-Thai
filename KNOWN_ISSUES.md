@@ -4,6 +4,12 @@
 
 **Full Content — Public Pre-release** · เนื้อหาไทยครบ แต่ยังไม่รับรอง QA ในเกมของแพ็กนี้ครบทุกจุด / Exact-package gameplay QA is incomplete.
 
+## จอดำตั้งแต่เปิดเกม — คนละเรื่องกับเข้าบทเดิมซ้ำ
+
+ผู้ใช้เคยพบSteamที่ลงใหม่ไม่มีBepInEx/มอด และEpic Vanillaดำก่อนเข้าเมนู หลังผู้ใช้แก้Registryของเกม Steamเปิดได้แล้ว ยังไม่รู้ว่าค่าใดเป็นต้นเหตุ และยังไม่ได้ทดสอบEpicใหม่ [ตรวจstartupอย่างระมัดระวัง](docs/STARTUP_BLACK_SCREEN_TH.md) ไม่แนะนำให้resetทุกครั้ง และไม่อ้างว่าแก้same-chapter re-entry
+
+**Startup black screen is separate.** The owner saw it in clean Steam and Epic vanilla; Steam now works after Registry changes, but the responsible value is unknown and Epic has not been retested. [Startup checks](docs/STARTUP_BLACK_SCREEN_EN.md) are not a confirmed fix for the re-entry issue below.
+
 ## กลับเมนูแล้วเลือกเล่นบทเดิม: อาจจอดำ
 
 หากออกจากบทที่กำลังเล่นกลับไปหน้าเมนู แล้วเลือกเข้าเล่นบทเดิมอีกครั้งโดยยังไม่ปิดเกม บางครั้งหน้าจอจะแสดงหมายเลขบทตามปกติ แต่เมื่อกำลังเข้าสู่ฉากเล่น ภาพอาจกลายเป็นสีดำ แม้ว่ายังได้ยินเสียงเกมอยู่ เมาส์หรือปุ่มควบคุมยังอาจตอบสนอง
@@ -26,7 +32,7 @@
 
 Steam / Windows x64 / Unity IL2CPP2019.4.18f1 / BepInEx6.0.0-be.788 / plugin0.7.21 เป็นชุดที่เคยทดสอบ แพ็กเผยแพร่ชุดนี้ยังรอ QA เฉพาะชุด ป้าย v2.0.4_01 ในภาพเก่าไม่ใช่การยืนยัน Steam BuildID ทุกชุด
 
-**Epic: NOT SUPPORTED / NOT VALIDATED** — ผู้ใช้รายงานว่าเกม Epic เดิมยังเปิดไม่ได้ในการทดสอบล่าสุด จึงไม่มีผล QA มอดบน Epic ไม่อนุมานสาเหตุหรือความเข้ากันได้จากเกม Steam ไม่รับรอง GOG, Linux, macOS, Proton, Steam Deck, VR หรือ build อื่น การสลับภาษากลาง Cinema ยังไม่ผ่าน QA
+**Epic: NOT SUPPORTED / NOT VALIDATED** — ผู้ใช้เคยรายงานEpic Vanillaจอดำตั้งแต่เปิด ยังไม่ทดสอบEpicซ้ำหลังแก้Registryแล้วSteamเปิดได้ จึงไม่มีผล QA มอดบน Epic ไม่อนุมานสาเหตุหรือความเข้ากันได้จากเกม Steam ไม่รับรอง GOG, Linux, macOS, Proton, Steam Deck, VR หรือ build อื่น การสลับภาษากลาง Cinema ยังไม่ผ่าน QA
 
 ## English
 
@@ -46,6 +52,6 @@ Historical chapter-selection/ESC/Home/Continue failures included a first PuzzleJ
 
 ### Compatibility and QA
 
-Historically tested: Steam Windows x64, Unity IL2CPP2019.4.18f1, BepInEx6.0.0-be.788, plugin0.7.21. This public ZIP still needs exact-package user QA. Old screenshot labels are not a verified Steam BuildID. **Epic is NOT SUPPORTED / NOT VALIDATED**: the user reports the unmodified Epic game did not launch in the latest test, so no mod QA is available there. Do not infer a cause or support from Steam results. Other stores, OSes, VR/builds and mid-Cinema language changes are untested.
+Historically tested: Steam Windows x64, Unity IL2CPP2019.4.18f1, BepInEx6.0.0-be.788, plugin0.7.21. This public ZIP still needs exact-package user QA. Old screenshot labels are not a verified Steam BuildID. **Epic is NOT SUPPORTED / NOT VALIDATED**: the original Epic game previously failed at startup and has not been retested after the Registry changes that allowed Steam to work. No mod QA is available there. Do not infer a cause or support from Steam results. Other stores, OSes, VR/builds and mid-Cinema language changes are untested.
 
 SAME_CHAPTER_REENTRY=OPEN_USER_REPRODUCED · ROOT_CAUSE=UNKNOWN

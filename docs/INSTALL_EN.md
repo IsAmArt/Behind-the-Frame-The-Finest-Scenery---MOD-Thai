@@ -4,6 +4,16 @@
 
 **Full Content — Public Pre-release.** Complete Thai content, incomplete exact-package gameplay QA and known issues. The user performs every game launch.
 
+## 0. Check vanilla before adding anything
+
+1. Install the Steam game and reach its menu **without mods or BepInEx**. Existing mod users should first follow [safe vanilla recovery](BACKUP_UNINSTALL_EN.md).
+2. If the menu works, close the game; then download/install the pinned BepInEx build.
+3. Check BepInEx alone, then close the game before downloading/copying the Thai mod as described below.
+
+If vanilla is black at startup, **do not install BepInEx/the mod yet**. Read [Startup black screen — initial checks and recovery](STARTUP_BLACK_SCREEN_EN.md). Registry reset is not a routine installation step and must not be repeated on every installation.
+
+These are the latest online instructions; the v1.0.0-rc1 ZIP remains unchanged.
+
 ## 1. Before you start
 
 You need the Steam game on Windows x64, the separate **BepInEx 6.0.0-be.788 Unity.IL2CPP-win-x64 ZIP**, the **Thai mod ZIP**, and Windows **Extract All…** or a ZIP-capable application. BepInEx and the Thai mod are **two different downloads**. The base game should already launch normally. No New Game, save reset or standalone font installation is required. Existing mod users should [back up first](BACKUP_UNINSTALL_EN.md).
@@ -33,7 +43,7 @@ Do not use the save, `_Data` or StreamingAssets folder. Trees show relevant file
 3. Open the extracted folder until you see **winhttp.dll**, **doorstop_config.ini**, **BepInEx** and **dotnet**.
 4. Close the game. Select the archive's contents → right-click **Copy**. Open the folder containing **Behind the Frame.exe**, right-click an empty area → **Paste**. Do not copy the enclosing archive-name folder.
 5. Confirm **winhttp.dll** and **BepInEx** sit beside the EXE.
-6. Optionally launch through Steam yourself once to check the loader separately and let it generate required files. First startup may take longer than usual.
+6. After vanilla reaches its menu, launch through Steam yourself to check BepInEx separately and let it generate required files. First startup may take longer than usual.
 7. **Close the game before copying the Thai mod.**
 
 If BepInEx or other mods already exist, back up and verify the loader version before replacing anything. Preserve the player's global `BepInEx/config/BepInEx.cfg`. Do not substitute Mono, x86, BepInEx5 or an arbitrary Latest build.

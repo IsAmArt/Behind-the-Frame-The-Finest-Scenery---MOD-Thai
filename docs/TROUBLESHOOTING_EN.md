@@ -2,6 +2,10 @@
 
 [Home](../README_EN.md) · [ภาษาไทย](TROUBLESHOOTING_TH.md) · [Install](INSTALL_EN.md) · [Known Issues](../KNOWN_ISSUES.md)
 
+## Black screen from startup, before the menu?
+
+This can occur even without BepInEx/the mod. Stop mod installation and read [Startup black screen — initial checks and recovery](STARTUP_BLACK_SCREEN_EN.md). The owner reports Steam working after Registry changes; the responsible value is unknown and Epic has not been retested. This does not establish a fix for same-chapter re-entry black screens.
+
 ## Where is the game folder?
 
 Steam → Library → right-click the game → Properties… → Installed Files → Browse…. Find **Behind the Frame.exe**, possibly one level deeper in BehindTheFrame_PC_Steam. Stop if the executable is missing; do not create/guess a destination.
