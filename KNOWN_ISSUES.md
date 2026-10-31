@@ -4,11 +4,15 @@
 
 **Full Content — Public Pre-release** · เนื้อหาไทยครบ แต่ยังไม่รับรอง QA ในเกมของแพ็กนี้ครบทุกจุด / Exact-package gameplay QA is incomplete.
 
-## จอดำตั้งแต่เปิดเกม — คนละเรื่องกับเข้าบทเดิมซ้ำ
+## A. จอดำตั้งแต่เปิดเกม — คนละเรื่องกับเข้าบทเดิมซ้ำ
 
-ผู้ใช้เคยพบSteamที่ลงใหม่ไม่มีBepInEx/มอด และEpic Vanillaดำก่อนเข้าเมนู หลังผู้ใช้แก้Registryของเกม Steamเปิดได้แล้ว ยังไม่รู้ว่าค่าใดเป็นต้นเหตุ และยังไม่ได้ทดสอบEpicใหม่ [ตรวจstartupอย่างระมัดระวัง](docs/STARTUP_BLACK_SCREEN_TH.md) ไม่แนะนำให้resetทุกครั้ง และไม่อ้างว่าแก้same-chapter re-entry
+ผู้จัดทำเคยพบSteam Vanillaดำก่อนเข้าเมนู หลังแก้Registryของเกมเปิดได้ ค่าต้นเหตุยังUNKNOWN ส่วนEpic Vanillaเปิดได้หลังเปลี่ยนชื่อโฟลเดอร์ข้อมูลเก่าในLocalLow (สำรองไว้ก่อน) ตอนนี้ **ทดสอบใช้งานเบื้องต้นสำเร็จทั้ง Steam และ Epic Games Store บน Windows x64 โดยผู้จัดทำ** ไม่ใช่การยืนยันroot causeหรือแก้ได้ทุกเครื่อง [แนวทางสำรอง/ตรวจstartup](docs/STARTUP_BLACK_SCREEN_TH.md) ไม่ทำRegistryresetและLocalLowrenameพร้อมกันเป็นค่าเริ่มต้น
 
-**Startup black screen is separate.** The owner saw it in clean Steam and Epic vanilla; Steam now works after Registry changes, but the responsible value is unknown and Epic has not been retested. [Startup checks](docs/STARTUP_BLACK_SCREEN_EN.md) are not a confirmed fix for the re-entry issue below.
+## C. คัตซีนไม่เล่น — Video Codec
+
+บางเครื่องอาจลองเปลี่ยนSettingsจากH.264เป็นVP8ตาม [ผู้จัดจำหน่าย8กรกฎาคม2022](https://steamcommunity.com/games/1634150/announcements/detail/3335495035148049868) โดยประกาศกล่าวถึงSteamDeckด้วย [คำอธิบายและขอบเขต](docs/TROUBLESHOOTING_TH.md#video-codec) ไม่ใช่วิธีที่ยืนยันว่าแก้Aหรืออาการเข้าบทเดิมซ้ำด้านล่าง และไม่รับรองมอดบนSteamDeck
+
+**English — A and C are separate:** Steam recovered after owner Registry edits (value unknown); Epic recovered after renaming old LocalLow game data with backup. Both stores now passed owner basic runtime testing, not exhaustive QA. [Startup recovery](docs/STARTUP_BLACK_SCREEN_EN.md). For affected cutscene playback, the publisher suggested H.264→VP8, mentioning SteamDeck; [codec guidance](docs/TROUBLESHOOTING_EN.md#video-codec) is not a confirmed startup or same-chapter fix.
 
 ## กลับเมนูแล้วเลือกเล่นบทเดิม: อาจจอดำ
 
@@ -28,11 +32,9 @@
 
 เคยมีรายงานเส้นทางเลือกบท → ESC → กลับเมนู → เล่นต่อผิดปกติ พร้อมข้อผิดพลาด PuzzleJackSign ครั้งแรกและ PaintCraft ภายหลัง ยังไม่ยืนยันกับ ZIP ใหม่นี้ ไม่ได้หมายความว่าทุกคนจะเจอหรือมีสาเหตุเดียวกับจอดำ หากพบให้หยุดเส้นทางนั้นและแจ้งผล ไม่รีเซต/กู้ทับเซฟ
 
-## ขอบเขตที่เคยทดสอบ
+## ขอบเขตที่ทดสอบ
 
-Steam / Windows x64 / Unity IL2CPP2019.4.18f1 / BepInEx6.0.0-be.788 / plugin0.7.21 เป็นชุดที่เคยทดสอบ แพ็กเผยแพร่ชุดนี้ยังรอ QA เฉพาะชุด ป้าย v2.0.4_01 ในภาพเก่าไม่ใช่การยืนยัน Steam BuildID ทุกชุด
-
-**Epic: NOT SUPPORTED / NOT VALIDATED** — ผู้ใช้เคยรายงานEpic Vanillaจอดำตั้งแต่เปิด ยังไม่ทดสอบEpicซ้ำหลังแก้Registryแล้วSteamเปิดได้ จึงไม่มีผล QA มอดบน Epic ไม่อนุมานสาเหตุหรือความเข้ากันได้จากเกม Steam ไม่รับรอง GOG, Linux, macOS, Proton, Steam Deck, VR หรือ build อื่น การสลับภาษากลาง Cinema ยังไม่ผ่าน QA
+**ทดสอบใช้งานเบื้องต้นสำเร็จทั้ง Steam และ Epic Games Store บน Windows x64 โดยผู้จัดทำ** (31ตุลาคม2026): Vanilla, BepInEx6.0.0-be.788และไทยทำงานได้ตามผลผู้จัดทำ ไม่ใช่การตรวจครบทุกบท/build หรือStablecertification ไม่สรุปว่าbinaryสองร้านเหมือนกัน SteamเคยตรวจUnity IL2CPP2019.4.18f1;ข้อมูลนั้นไม่แทนbuildEpic ไม่รับรองร้านอื่น Linux/macOS/Proton/SteamDeck/VRหรือการสลับภาษากลางCinema ป้ายv2.0.4_01ในภาพไม่ใช่SteamBuildID
 
 ## English
 
@@ -52,6 +54,6 @@ Historical chapter-selection/ESC/Home/Continue failures included a first PuzzleJ
 
 ### Compatibility and QA
 
-Historically tested: Steam Windows x64, Unity IL2CPP2019.4.18f1, BepInEx6.0.0-be.788, plugin0.7.21. This public ZIP still needs exact-package user QA. Old screenshot labels are not a verified Steam BuildID. **Epic is NOT SUPPORTED / NOT VALIDATED**: the original Epic game previously failed at startup and has not been retested after the Registry changes that allowed Steam to work. No mod QA is available there. Do not infer a cause or support from Steam results. Other stores, OSes, VR/builds and mid-Cinema language changes are untested.
+Basic runtime testing succeeded on both Steam and Epic Games Store on Windows x64, confirmed by the project owner on31October2026. Vanilla, pinned BepInEx and Thai selection/use passed basic checks. This is not all-chapter/all-build regression QA, stable certification or proof of identical Steam/Epic binaries. Steam's previously inspected Unity IL2CPP2019.4.18f1 metadata does not certify Epic's build. Other stores/OSes/VR/SteamDeck and mid-Cinema locale changes remain unvalidated. Old screenshot labels are not verified build IDs.
 
 SAME_CHAPTER_REENTRY=OPEN_USER_REPRODUCED · ROOT_CAUSE=UNKNOWN

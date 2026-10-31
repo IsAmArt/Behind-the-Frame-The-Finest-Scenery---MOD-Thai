@@ -1,5 +1,8 @@
 # Behind the Frame — Thai Localization v1.0.0-rc1 (Full Thai Mod)
 
+> Online documentation update31Oct2026: Steam and Epic basic owner testing passed; existing release ZIP/tag/body unchanged. See current README for the full scope.
+
+
 **Full Content — Public Pre-release** · มอดแปลโดยแฟนเกม แจกฟรี โดย **TA Font**
 
 ## เนื้อหาครบในชุดเดียว
@@ -12,7 +15,7 @@
 
 ## ก่อนติดตั้ง
 
-เคยทดสอบเฉพาะ Steam / Windows x64 / Unity IL2CPP2019.4.18f1 ใช้ BepInEx6.0.0-be.788 Unity.IL2CPP-win-x64 แยกต่างหาก ไม่ใช่ Mono/x86/BepInEx5 ไม่รวมเกม/BepInEx/ฟอนต์TTFในZIPนี้ Epicไม่รองรับ/ไม่มีQA; ผู้ใช้รายงานเกมEpicเดิมยังเปิดไม่ได้ ไม่รับรองร้านหรือแพลตฟอร์มอื่น
+เคยทดสอบเฉพาะ Steam / Windows x64 / Unity IL2CPP2019.4.18f1 ใช้ BepInEx6.0.0-be.788 Unity.IL2CPP-win-x64 แยกต่างหาก ไม่ใช่ Mono/x86/BepInEx5 ไม่รวมเกม/BepInEx/ฟอนต์TTFในZIPนี้ ทดสอบใช้งานเบื้องต้นสำเร็จทั้ง Steam และ Epic Games Store บน Windows x64 โดยผู้จัดทำ (31ตุลาคม2026; basic QAเท่านั้น) ไม่รับรองร้านหรือแพลตฟอร์มอื่น
 
 ดาวน์โหลด ZIPมอดจาก Assets (ไม่ใช่ Source code) แตกไฟล์ ปิดเกม สำรองมอดเก่า แล้วคัดลอก BepInExของมอดไปโฟลเดอร์ที่มี Behind the Frame.exe อย่าให้ BepInEx/BepInExซ้อน เปิดผ่านSteam → Settings → Language → ไทย ไม่ลบ/แก้SaveหรือSteamCloud
 

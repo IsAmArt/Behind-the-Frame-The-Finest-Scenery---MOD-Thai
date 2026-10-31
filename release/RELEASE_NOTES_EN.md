@@ -1,10 +1,13 @@
 # Behind the Frame — Thai Localization v1.0.0-rc1 (Full Thai Mod)
 
+> Online documentation update31Oct2026: Steam and Epic basic owner testing passed; existing release ZIP/tag/body unchanged. See current README for the full scope.
+
+
 **Full Content — Public Pre-release** · Unofficial free fan translation by **TA Font**
 
 703 translation keys; TAMolly Thai font/shaping;34 notebook/letter images including updated AmberLetter;3 Cinema sets/12 frames; existing English fallback;50 runtime/config files. Package1.0.0-rc1, unchanged plugin0.7.21, Phase05H + QA06 data.
 
-Historically tested: Steam Windows x64 / Unity IL2CPP2019.4.18f1. Separately install pinned BepInEx6.0.0-be.788 Unity.IL2CPP-win-x64, not Mono/x86/BepInEx5. No game/loader/standalone fonts bundled. Epic is not supported/validated: the user reports the original Epic game failed to launch; other stores/OSes/builds remain untested.
+Historically tested: Steam Windows x64 / Unity IL2CPP2019.4.18f1. Separately install pinned BepInEx6.0.0-be.788 Unity.IL2CPP-win-x64, not Mono/x86/BepInEx5. No game/loader/standalone fonts bundled. Basic runtime testing succeeded on both Steam and Epic Games Store on Windows x64, confirmed by the project owner on31October2026. This is basic QA, not every chapter/build; other stores/OSes/builds remain untested.
 
 Download the actual mod ZIP in Assets, not Source code. Extract, close the game, back up the old matching mod set, and merge the mod's BepInEx folder beside Behind the Frame.exe. Avoid BepInEx/BepInEx nesting. Launch through Steam → Settings → Language → ไทย. Never edit/delete/reset saves or Steam Cloud.
 
